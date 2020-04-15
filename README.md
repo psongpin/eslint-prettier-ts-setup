@@ -1,4 +1,4 @@
-## Basic Linting and Formatter Setup on CRA
+## Linting and Formatter Setup with Typescript on CRA
 
 This repo documents the setup for Typescript, ESLint with Airbnb config, Prettier, Husky, Lint-Staged with React on CRA.
 
@@ -27,8 +27,8 @@ Follow project installation guide for typescript: https://create-react-app.dev/d
 
 - It will generate a `.eslintrc.json` file with some initial configs. I prefer to rename my file with `.eslintrc` as preference.
 - Install the following packages as dev dependencies: `npm i prettier eslint-config-prettier eslint-plugin-prettier --save-dev`
-- Update `.eslintrc`:
-- Create `.prettierrc`:
+- Update `.eslintrc`: https://github.com/psongpin/eslint-prettier-ts-setup/blob/master/.eslintrc.json
+- Create `.prettierrc`: https://github.com/psongpin/eslint-prettier-ts-setup/blob/master/.prettierrc
 - Add to `scripts` in package.json
 
 ```
@@ -37,14 +37,14 @@ Follow project installation guide for typescript: https://create-react-app.dev/d
 "format": "prettier --write 'src/**/*.{ts,tsx,css,scss}'"
 ```
 
-- Update `.tsconfig.json`:
+- Update `.tsconfig.json`: https://github.com/psongpin/eslint-prettier-ts-setup/blob/master/tsconfig.json
 
 ### Husky and Lint-staged
 
 -`npm i husky lint-staged --save-dev`
 
-- Create `.huskyrc`:
-- Create `.lintstagedrc`:
+- Create `.huskyrc`: https://github.com/psongpin/eslint-prettier-ts-setup/blob/master/.huskyrc
+- Create `.lintstagedrc`: https://github.com/psongpin/eslint-prettier-ts-setup/blob/master/.lintstagedrc
 
 ### VSCode
 
